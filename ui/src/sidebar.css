@@ -1,0 +1,161 @@
+/* The iframe root is the real pane, so sizing follows it rather than the host window. */
+html:has(.real-share),body:has(.real-share),body:has(.real-share) #root{height:100%;min-height:0;overflow:hidden}
+body:has(.real-share) #root{container:share-pane / inline-size}
+.whale-theme .real-share{height:100dvh;min-height:0;max-width:none;padding:0 clamp(20px,4.5cqw,72px);overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#40557b transparent;background:radial-gradient(ellipse at 75% 43%,#4d6bfe0e,transparent 54%),#10182a;font-size:16px;line-height:1.6}
+.real-share .focus-header{position:sticky;top:0;z-index:5;display:grid;grid-template-columns:1fr auto;grid-template-rows:40px 44px;gap:10px 16px;height:auto;min-height:116px;padding:14px 0 8px;background:#10182af5;backdrop-filter:blur(12px);width:100%;max-width:1320px;margin:0 auto}
+.real-share .focus-brand{font-size:18px;gap:10px;letter-spacing:-.3px;min-width:0}
+.real-share .brand-icon{width:30px;height:30px;border:0;background:none}
+.real-share .brand-icon img{width:30px;height:30px}
+.real-share .focus-header-right{display:flex;grid-column:2;grid-row:1;gap:0}
+.real-share .focus-header-right .ant-btn{width:40px;height:40px;font-size:18px}
+.real-share .whale-edition{display:none}
+.real-share .focus-header>.ant-segmented{grid-column:1/-1;grid-row:2;width:100%;font-size:16px;padding:4px;border-radius:12px}
+.real-share .focus-header .ant-segmented-group{display:flex;width:100%}
+.real-share .focus-header .ant-segmented-item{flex:1;text-align:center}
+.real-share .focus-header .ant-segmented-item-label{min-height:34px;line-height:34px;padding:0 18px}
+.whale-theme .real-share .focus-main,.whale-theme .real-share[data-detail=true] .focus-main,.whale-theme .real-share[data-view=shared] .focus-main{display:grid;grid-template-columns:minmax(0,1fr);justify-items:center;align-items:center;align-content:start;flex:1 0 auto;gap:clamp(24px,5cqw,40px);min-height:0;width:100%;max-width:1320px;margin:0 auto;padding:clamp(12px,2.5cqw,28px) 0 36px}
+.whale-theme .real-share .focus-stage,.whale-theme .real-share[data-detail=true] .focus-stage{order:0;display:flex;align-self:stretch;align-items:center;max-width:560px;min-height:0;width:100%;margin:0}
+.whale-theme .real-share .stage-content,.whale-theme .real-share .focus-stage.has-image-entry .stage-content{width:100%;max-width:605px;margin:0 auto}
+.real-share .whale-swim{width:100%;max-width:none;margin:auto}
+/* Keep the original 560 × 520 scene, including its atmosphere and full swim path. */
+.real-share .swim-scene{display:block;width:100%;height:auto;aspect-ratio:560 / 520;overflow:visible}
+.real-share .swim-caption{height:44px;margin:-28px 0 0;font-size:14px;color:#afc3e6;gap:7px}
+.real-share .swim-caption .ant-btn{height:44px;width:44px;font-size:12px}
+.real-share .stage-image-entry{display:none}
+.real-share .stage-file-hint{inset:auto 0 10px;transform:none;text-align:center;font-size:14px}
+.real-share .focus-panel{order:1;min-width:0;width:100%;max-width:560px}
+.real-share .focus-intro{margin:0 0 22px}
+.real-share .focus-intro h1{font-size:clamp(28px,7.8cqw,40px);font-weight:500;letter-spacing:-.8px;line-height:1.3;overflow-wrap:anywhere}
+.real-share .focus-intro h1 br{display:initial}
+.real-share .focus-intro p{font-size:14px;line-height:1.7;margin-top:10px}
+.real-share .category-list{margin-bottom:16px}
+.real-share .category-row.ant-btn{height:76px;padding:10px 0;gap:14px}
+.real-share .category-row>.focus-mark{width:30px;font-size:26px}
+.real-share .category-copy{gap:4px}
+.real-share .category-copy strong{font-size:20px;line-height:1.4;letter-spacing:0}
+.real-share .category-copy>span{font-size:13px;line-height:1.5;white-space:normal;text-align:left}
+.real-share .category-count{font-size:13px;line-height:1.5}
+.real-share .category-count>span{display:inline}
+.real-share .category-row>.anticon:last-child{font-size:12px;margin-left:0}
+.real-share .share-name{min-height:44px;margin:8px 0 20px;gap:12px}
+.real-share .share-name label{font-size:13px}
+.real-share .share-name .ant-input{font-size:15px;min-width:0}
+.real-share .share-name .ant-btn{font-size:13px;padding:0 4px}
+.real-share .primary-line{gap:18px;align-items:center}
+.real-share .focus-primary.ant-btn{min-width:0;flex:1;height:48px;padding:0 18px;border-radius:11px;font-size:16px;gap:10px}
+.real-share .focus-primary .anticon:last-child{margin-left:auto}
+.real-share .primary-line>span{font-size:13px;white-space:nowrap}
+.real-share .action-note{font-size:14px;line-height:1.65;margin-top:13px}
+.real-share .focus-panel .back-link.ant-btn{font-size:14px;height:36px;margin-bottom:22px}
+.real-share .detail-heading h1{font-size:clamp(28px,6cqw,36px);letter-spacing:-.35px;line-height:1.4}
+.real-share .detail-heading p{font-size:16px;line-height:1.75;margin-top:12px}
+.real-share .focus-kicker{font-size:14px;line-height:1.6;margin-bottom:14px}
+.real-share .catalog-search.ant-input-affix-wrapper{height:42px;margin:16px 0 12px;font-size:15px}
+.real-share .catalog-filter-row{gap:8px;flex-wrap:wrap;margin-bottom:8px;font-size:13px}
+.real-share .catalog-filter-row .ant-segmented{font-size:13px}
+.real-share .catalog-filter-row .ant-segmented-item-label{padding:0 9px;min-height:32px;line-height:32px}
+.real-share .catalog-filter-row .ant-checkbox-wrapper{font-size:13px}
+.real-share .catalog-list{min-height:0}
+.real-share .focus-item{gap:10px;min-height:56px}
+.real-share .focus-item .item-detail.ant-btn{height:auto;min-height:54px;gap:9px;font-size:15px;white-space:normal;line-height:1.5;padding:8px 0}
+.real-share .item-detail>span:not(.anticon){text-align:left;overflow-wrap:anywhere}
+.real-share .catalog-footer{position:sticky;bottom:0;background:linear-gradient(#10182aeb,#10182a 20%);padding:12px 0 3px;margin-top:8px;gap:8px;flex-wrap:wrap;z-index:2}
+.real-share .catalog-footer>.ant-btn{height:42px;font-size:15px;padding:0 16px}
+.real-share .detail-example{margin-top:28px;padding:18px 0 18px 20px}
+.real-share .detail-example>p{font-size:17px;line-height:1.8;margin-top:8px}
+.real-share .detail-example>span,.real-share .more-example.ant-btn{font-size:14px}
+.real-share .detail-action{margin-top:28px;gap:12px;flex-wrap:wrap}
+.real-share .detail-action .ant-btn{font-size:15px;height:42px}
+.real-share .real-source{font-size:15px;line-height:1.75;margin-top:18px}
+.real-share .real-source small,.real-share .subtle-note{font-size:13px}
+.real-share .real-source li{gap:12px;padding:10px 0}
+.real-share .real-source li small{white-space:nowrap;flex:none}
+.real-share .real-source ul{margin:15px 0}
+.real-share .result-pack{margin:15px 0 20px}
+.real-share .result-pack h2{font-size:19px;line-height:1.5;overflow-wrap:anywhere}
+.real-share .real-count{font-size:13px}
+.real-share .card-theme-picker .ant-radio-group{max-width:none;gap:8px}
+.real-share .card-theme-picker .ant-radio-button-wrapper{max-width:none;height:100px;padding:5px}
+.real-share .card-theme-label{font-size:13px;margin-bottom:8px}
+.real-share .card-theme-name{padding:8px 2px 0;font-size:13px;gap:2px;white-space:nowrap}
+.real-share .result-buttons{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.real-share .result-buttons .ant-btn{height:42px;font-size:14px;padding-inline:10px}
+.real-share .result-buttons .ant-btn:last-child{grid-column:1/-1}
+.real-share .friend-preview.ant-btn{font-size:14px;margin-top:12px;max-width:100%;height:auto;min-height:40px;white-space:normal;text-align:left;padding:6px 0}
+.real-share .local-link{margin-top:12px;min-width:0}
+.real-share .local-link>span{font-size:13px;line-height:1.6}
+.real-share .receive-source{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;margin-top:18px}
+.real-share .receive-source>.ant-input{min-width:0;width:100%;font-size:15px;height:42px}
+.real-share .receive-source>.ant-btn{height:42px;font-size:14px}
+.real-share .receive-source>.ant-btn:last-child{grid-column:1/-1;width:100%;height:46px;background:#24385b;border-color:#4d6bfe77;color:#e4edff}
+.real-share .real-receive-empty{padding:22px 0;color:#aebed9}
+.real-share .real-receive-empty>.anticon,.real-share .real-receive-empty>span{display:none}
+.real-share .real-receive-empty p{font-size:15px;line-height:1.8;color:#afc3e6;text-align:center}
+.real-share .received-name{margin-top:22px;font-size:18px;gap:8px;flex-wrap:wrap;overflow-wrap:anywhere}
+.real-share .received-name small{font-size:13px}
+.real-share .real-target{display:flex;align-items:center;gap:12px;margin:15px 0 12px}
+.real-share .real-target label{font-size:14px}
+.real-share .real-target .ant-select{font-size:14px;width:0}
+.real-share .receive-settings{margin:13px 0 17px;align-items:flex-start;gap:6px;flex-wrap:wrap}
+.real-share .receive-settings>span{font-size:13px;line-height:1.65;flex:1;min-width:170px}
+.real-share .real-receipt{gap:10px;margin:18px 0 22px}
+.real-share .real-receipt>span{font-size:14px}
+.real-share .real-trial-result{font-size:14px;margin-top:18px}
+.real-share .real-trial-result pre{font-size:15px;padding:14px}
+.real-share .install-current{padding:20px 0;gap:13px}
+.real-share .install-current strong{font-size:17px}
+.whale-theme .real-share .focus-footer{height:auto;min-height:44px;max-width:1320px;width:100%;margin:0 auto;padding:12px 0 16px;gap:8px;flex-wrap:nowrap;justify-content:space-between;font-size:12px}
+.real-share .focus-footer>span:last-child{display:none}
+.real-share .focus-footer>.ant-btn{padding:4px 0;height:auto;font-size:12px}
+body:has(.real-share) .focus-modal{top:24px;max-width:calc(100vw - 24px);padding-bottom:24px}
+body:has(.real-share) .focus-modal .ant-modal-container{padding:20px!important}
+body:has(.real-share) .focus-modal .ant-modal-title{font-size:17px;padding-right:25px}
+body:has(.real-share) .focus-modal .ant-modal-body{font-size:15px;max-height:calc(100dvh - 190px);overflow:auto;overscroll-behavior:contain}
+body:has(.real-share) .focus-modal .ant-modal-footer{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:8px}
+body:has(.real-share) .focus-modal .ant-modal-footer>.ant-btn{font-size:14px;margin:0}
+body:has(.real-share) .image-import-modal .qr-dropzone{min-height:230px;padding:22px 12px;gap:10px;border-radius:15px;text-align:center}
+body:has(.real-share) .qr-dropzone strong{font-size:18px;line-height:1.6}
+body:has(.real-share) .qr-dropzone>span:not(.drop-image-mark):not(.drop-corner){font-size:13px;line-height:1.7}
+body:has(.real-share) .image-import-note,body:has(.real-share) .image-import-error{font-size:13px;line-height:1.7}
+body:has(.real-share) .swim-card-modal .ant-modal-body{padding:8px;max-height:calc(100dvh - 180px)}
+body:has(.real-share) .swim-card-modal .swim-card-image{width:100%;max-width:340px;border-radius:12px}
+/* Reflow at the pane's usable capacity; no height- or detail-based shrink step. */
+@container share-pane (min-width:900px){
+  .real-share .focus-header{position:relative;grid-template-columns:1fr auto 1fr;grid-template-rows:auto;min-height:80px;height:80px;padding:0;gap:20px;background:transparent;backdrop-filter:none}
+  .real-share .focus-brand{font-size:20px;gap:12px}
+  .real-share .brand-icon,.real-share .brand-icon img{width:36px;height:36px}
+  .real-share .focus-header>.ant-segmented{grid-column:2;grid-row:1;width:auto;font-size:16px}
+  .real-share .focus-header .ant-segmented-item-label{padding-inline:23px;min-height:36px;line-height:36px}
+  .real-share .focus-header-right{grid-column:3;grid-row:1;gap:14px}
+  .real-share .whale-edition{display:inline;font-size:12px}
+  .whale-theme .real-share .focus-main,.whale-theme .real-share[data-detail=true] .focus-main,.whale-theme .real-share[data-view=shared] .focus-main{grid-template-columns:minmax(0,.92fr) minmax(0,1fr);column-gap:clamp(32px,5cqw,90px);row-gap:0;align-content:center;min-height:calc(100dvh - 134px);padding:32px 0 40px}
+  .real-share .focus-panel{order:0;max-width:none}
+  .whale-theme .real-share .focus-stage,.whale-theme .real-share[data-detail=true] .focus-stage{order:1;max-width:none}
+  .real-share .focus-intro{margin-bottom:24px}
+  .real-share .focus-intro h1{font-size:clamp(36px,4.2cqw,48px);letter-spacing:-1.2px;line-height:1.26}
+  .real-share .category-row.ant-btn{height:80px;gap:16px}
+  .real-share .category-copy strong{font-size:22px}
+  .real-share .category-copy>span,.real-share .category-count{font-size:14px}
+  .real-share .focus-primary.ant-btn{height:50px;max-width:320px}
+  .real-share .primary-line>span{font-size:14px}
+  .real-share .focus-footer>span:last-child{display:inline}
+  .real-share .result-buttons{display:flex;flex-wrap:wrap;gap:10px}
+  .real-share .result-buttons .ant-btn{flex:1;min-width:100px;height:46px}
+}
+@container share-pane (max-width:360px){
+  .whale-theme .real-share{padding-inline:18px}
+  .real-share .focus-brand{font-size:17px}
+  .real-share .category-row.ant-btn{height:auto;min-height:80px;gap:10px}
+  .real-share .category-copy strong{font-size:19px}
+  .real-share .category-count{font-size:13px}
+  .real-share .category-count>span{display:block}
+  .real-share .category-copy>span{max-width:157px}
+  .real-share .primary-line{gap:10px}
+  .real-share .focus-primary.ant-btn{font-size:15px;padding-inline:13px}
+  .real-share .card-theme-name{font-size:12px}
+  .real-share .card-theme-name .anticon{display:none}
+  .real-share .focus-footer>span:first-child{display:none}
+  .whale-theme .real-share .focus-footer{justify-content:center}
+  .real-share .catalog-footer{justify-content:space-between}
+  .real-share .catalog-filter-row .ant-segmented-item-label{padding-inline:7px}
+}

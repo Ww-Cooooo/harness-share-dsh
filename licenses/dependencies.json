@@ -1,0 +1,686 @@
+[
+  {
+    "name": "@ant-design/colors",
+    "version": "8.0.1",
+    "license": "MIT",
+    "repository": "git+https://github.com/ant-design/ant-design-colors.git",
+    "notices": [
+      "ant-design__colors--LICENSE"
+    ]
+  },
+  {
+    "name": "@ant-design/cssinjs",
+    "version": "2.1.2",
+    "license": "MIT",
+    "repository": "git@github.com:ant-design/cssinjs.git",
+    "notices": [
+      "ant-design__cssinjs--LICENSE.md"
+    ]
+  },
+  {
+    "name": "@ant-design/cssinjs-utils",
+    "version": "2.1.2",
+    "license": "MIT",
+    "repository": "https://github.com/ant-design/cssinjs-util.git",
+    "notices": [
+      "ant-design__cssinjs-utils--LICENSE"
+    ]
+  },
+  {
+    "name": "@ant-design/fast-color",
+    "version": "3.0.1",
+    "license": "MIT",
+    "repository": "https://github.com/ant-design/fast-color.git",
+    "notices": [
+      "ant-design__fast-color--LICENSE"
+    ]
+  },
+  {
+    "name": "@ant-design/icons",
+    "version": "6.3.4",
+    "license": "MIT",
+    "repository": "https://github.com/ant-design/ant-design-icons/tree/master/packages/icons-react",
+    "notices": [
+      "ant-design__icons--LICENSE"
+    ]
+  },
+  {
+    "name": "@ant-design/icons-svg",
+    "version": "4.6.0",
+    "license": "MIT",
+    "repository": "git+https://github.com/ant-design/ant-design-icons.git",
+    "notices": [
+      "ant-design__icons-svg--LICENSE"
+    ]
+  },
+  {
+    "name": "@ant-design/react-slick",
+    "version": "2.0.0",
+    "license": "MIT",
+    "repository": "https://github.com/ant-design/react-slick",
+    "notices": [
+      "ant-design__react-slick--LICENSE"
+    ]
+  },
+  {
+    "name": "@babel/runtime",
+    "version": "7.29.13",
+    "license": "MIT",
+    "repository": "https://github.com/babel/babel.git",
+    "notices": [
+      "babel__runtime--LICENSE"
+    ]
+  },
+  {
+    "name": "@deepseek-ai/dsh-typert-protocol",
+    "version": "0.2.2-rc.1",
+    "license": "MIT",
+    "repository": "git+https://github.com/deepseek-ai/deepseek-harness.git",
+    "notices": [
+      "deepseek-ai__dsh-typert-protocol--LICENSE"
+    ]
+  },
+  {
+    "name": "@emotion/hash",
+    "version": "0.8.0",
+    "license": "MIT",
+    "repository": "https://github.com/emotion-js/emotion/tree/master/packages/hash",
+    "notices": [
+      "emotion__hash--LICENSE"
+    ]
+  },
+  {
+    "name": "@emotion/unitless",
+    "version": "0.7.5",
+    "license": "MIT",
+    "repository": "https://github.com/emotion-js/emotion/tree/master/packages/unitless",
+    "notices": [
+      "emotion__unitless--LICENSE"
+    ]
+  },
+  {
+    "name": "@gsap/react",
+    "version": "2.1.2",
+    "license": "SEE LICENSE AT https://gsap.com/standard-license",
+    "repository": "git+https://github.com/greensock/react.git",
+    "notices": [
+      "gsap-standard-license.txt"
+    ]
+  },
+  {
+    "name": "@rc-component/async-validator",
+    "version": "6.0.0",
+    "license": "MIT",
+    "repository": "git@github.com:react-component/async-validator.git",
+    "notices": [
+      "rc-component__async-validator--LICENSE.md"
+    ]
+  },
+  {
+    "name": "@rc-component/cascader",
+    "version": "1.26.0",
+    "license": "MIT",
+    "repository": "https://github.com/react-component/cascader.git",
+    "notices": [
+      "rc-component__cascader--LICENSE",
+      "rc-component__cascader--LICENSE.md"
+    ]
+  },
+  {
+    "name": "@rc-component/checkbox",
+    "version": "2.0.0",
+    "license": "MIT",
+    "repository": "git@github.com:react-component/checkbox.git",
+    "notices": [
+      "rc-component__checkbox--LICENSE.md"
+    ]
+  },
+  {
+    "name": "@rc-component/collapse",
+    "version": "1.3.0",
+    "license": "MIT",
+    "repository": "https://github.com/react-component/collapse.git",
+    "notices": [
+      "rc-component__collapse--LICENSE",
+      "rc-component__collapse--LICENSE.md"
+    ]
+  },
+  {
+    "name": "@rc-component/color-picker",
+    "version": "3.1.1",
+    "license": "MIT",
+    "repository": "git@github.com:react-component/color-picker.git",
+    "notices": [
+      "rc-component__color-picker--LICENSE.md"
+    ]
+  },
+  {
+    "name": "@rc-component/context",
+    "version": "2.0.2",
+    "license": "MIT",
+    "repository": "git@github.com:react-component/context.git",
+    "notices": [
+      "rc-component__context--LICENSE.md"
+    ]
+  },
+  {
+    "name": "@rc-component/dialog",
+    "version": "1.10.0",
+    "license": "MIT",
+    "repository": "git@github.com:react-component/dialog.git",
+    "notices": [
+      "rc-component__dialog--LICENSE.md"
+    ]
+  },
+  {
+    "name": "@rc-component/drawer",
+    "version": "1.4.2",
+    "license": "MIT",
+    "repository": "https://github.com/react-component/drawer.git",
+    "notices": [
+      "rc-component__drawer--LICENSE"
+    ]
+  },
+  {
+    "name": "@rc-component/dropdown",
+    "version": "2.0.1",
+    "license": "MIT",
+    "repository": "https://github.com/react-component/dropdown.git",
+    "notices": [
+      "rc-component__dropdown--LICENSE"
+    ]
+  },
+  {
+    "name": "@rc-component/form",
+    "version": "1.8.6",
+    "license": "MIT",
+    "repository": "https://github.com/react-component/field-form.git",
+    "notices": [
+      "rc-component__form--LICENSE"
+    ]
+  },
+  {
+    "name": "@rc-component/image",
+    "version": "1.10.0",
+    "license": "MIT",
+    "repository": "https://github.com/react-component/image.git",
+    "notices": [
+      "rc-component__image--LICENSE",
+      "rc-component__image--LICENSE.md"
+    ]
+  },
+  {
+    "name": "@rc-component/input",
+    "version": "1.4.1",
+    "license": "MIT",
+    "repository": "https://github.com/react-component/input.git",
+    "notices": [
+      "rc-component__input--LICENSE",
+      "rc-component__input--LICENSE.md"
+    ]
+  },
+  {
+    "name": "@rc-component/input-number",
+    "version": "1.8.0",
+    "license": "MIT",
+    "repository": "https://github.com/react-component/input-number.git",
+    "notices": [
+      "rc-component__input-number--LICENSE",
+      "rc-component__input-number--LICENSE.md"
+    ]
+  },
+  {
+    "name": "@rc-component/listy",
+    "version": "1.4.0",
+    "license": "MIT",
+    "repository": "https://github.com/react-component/listy.git",
+    "notices": [
+      "rc-component__listy--LICENSE"
+    ]
+  },
+  {
+    "name": "@rc-component/mentions",
+    "version": "1.14.1",
+    "license": "MIT",
+    "repository": "https://github.com/react-component/mentions.git",
+    "notices": [
+      "rc-component__mentions--LICENSE",
+      "rc-component__mentions--LICENSE.md"
+    ]
+  },
+  {
+    "name": "@rc-component/menu",
+    "version": "1.6.2",
+    "license": "MIT",
+    "repository": "https://github.com/react-component/menu.git",
+    "notices": [
+      "rc-component__menu--LICENSE",
+      "rc-component__menu--LICENSE.md"
+    ]
+  },
+  {
+    "name": "@rc-component/mini-decimal",
+    "version": "1.1.4",
+    "license": "MIT",
+    "repository": "https://github.com/react-component/mini-decimal.git",
+    "notices": [
+      "rc-component__mini-decimal--LICENSE"
+    ]
+  },
+  {
+    "name": "@rc-component/motion",
+    "version": "1.3.3",
+    "license": "MIT",
+    "repository": "git@github.com:react-component/motion.git",
+    "notices": [
+      "rc-component__motion--LICENSE.md"
+    ]
+  },
+  {
+    "name": "@rc-component/mutate-observer",
+    "version": "2.0.1",
+    "license": "MIT",
+    "repository": "https://github.com/react-component/mutate-observer.git",
+    "notices": [
+      "rc-component__mutate-observer--LICENSE"
+    ]
+  },
+  {
+    "name": "@rc-component/notification",
+    "version": "2.1.1",
+    "license": "MIT",
+    "repository": "https://github.com/react-component/notification.git",
+    "notices": [
+      "rc-component__notification--LICENSE",
+      "rc-component__notification--LICENSE.md"
+    ]
+  },
+  {
+    "name": "@rc-component/overflow",
+    "version": "1.0.1",
+    "license": "MIT",
+    "repository": "git@github.com:react-component/overflow.git",
+    "notices": [
+      "rc-component__overflow--LICENSE.md"
+    ]
+  },
+  {
+    "name": "@rc-component/pagination",
+    "version": "1.7.0",
+    "license": "MIT",
+    "repository": "https://github.com/react-component/pagination.git",
+    "notices": [
+      "rc-component__pagination--LICENSE",
+      "rc-component__pagination--LICENSE.md"
+    ]
+  },
+  {
+    "name": "@rc-component/picker",
+    "version": "1.17.0",
+    "license": "MIT",
+    "repository": "https://github.com/react-component/picker.git",
+    "notices": [
+      "rc-component__picker--LICENSE",
+      "rc-component__picker--LICENSE.md"
+    ]
+  },
+  {
+    "name": "@rc-component/portal",
+    "version": "2.2.1",
+    "license": "MIT",
+    "repository": "https://github.com/react-component/portal.git",
+    "notices": [
+      "rc-component__portal--LICENSE"
+    ]
+  },
+  {
+    "name": "@rc-component/progress",
+    "version": "1.1.0",
+    "license": "MIT",
+    "repository": "https://github.com/react-component/progress.git",
+    "notices": [
+      "rc-component__progress--LICENSE",
+      "rc-component__progress--LICENSE.md"
+    ]
+  },
+  {
+    "name": "@rc-component/qrcode",
+    "version": "2.0.0",
+    "license": "MIT",
+    "repository": "https://github.com/react-component/qrcode.git",
+    "notices": [
+      "rc-component__qrcode--LICENSE"
+    ]
+  },
+  {
+    "name": "@rc-component/rate",
+    "version": "1.0.1",
+    "license": "MIT",
+    "repository": "https://github.com/react-component/rate.git",
+    "notices": [
+      "rc-component__rate--LICENSE.md"
+    ]
+  },
+  {
+    "name": "@rc-component/resize-observer",
+    "version": "1.1.2",
+    "license": "MIT",
+    "repository": "git@github.com:react-component/resize-observer.git",
+    "notices": [
+      "rc-component__resize-observer--LICENSE.md"
+    ]
+  },
+  {
+    "name": "@rc-component/segmented",
+    "version": "1.4.0",
+    "license": "MIT",
+    "repository": "https://github.com/react-component/segmented.git",
+    "notices": [
+      "rc-component__segmented--LICENSE",
+      "rc-component__segmented--LICENSE.md"
+    ]
+  },
+  {
+    "name": "@rc-component/select",
+    "version": "1.12.0",
+    "license": "MIT",
+    "repository": "https://github.com/react-component/select.git",
+    "notices": [
+      "rc-component__select--LICENSE",
+      "rc-component__select--LICENSE.md"
+    ]
+  },
+  {
+    "name": "@rc-component/slider",
+    "version": "1.2.1",
+    "license": "MIT",
+    "repository": "https://github.com/react-component/slider.git",
+    "notices": [
+      "rc-component__slider--LICENSE"
+    ]
+  },
+  {
+    "name": "@rc-component/steps",
+    "version": "1.2.3",
+    "license": "MIT",
+    "repository": "https://github.com/react-component/steps.git",
+    "notices": [
+      "rc-component__steps--LICENSE",
+      "rc-component__steps--LICENSE.md"
+    ]
+  },
+  {
+    "name": "@rc-component/switch",
+    "version": "1.0.3",
+    "license": "MIT",
+    "repository": "git@github.com:react-component/switch.git",
+    "notices": [
+      "rc-component__switch--LICENSE.md"
+    ]
+  },
+  {
+    "name": "@rc-component/table",
+    "version": "1.12.0",
+    "license": "MIT",
+    "repository": "https://github.com/react-component/table.git",
+    "notices": [
+      "rc-component__table--LICENSE",
+      "rc-component__table--LICENSE.md"
+    ]
+  },
+  {
+    "name": "@rc-component/tabs",
+    "version": "2.0.0",
+    "license": "MIT",
+    "repository": "https://github.com/react-component/tabs.git",
+    "notices": [
+      "rc-component__tabs--LICENSE",
+      "rc-component__tabs--LICENSE.md"
+    ]
+  },
+  {
+    "name": "@rc-component/tooltip",
+    "version": "1.5.2",
+    "license": "MIT",
+    "repository": "https://github.com/react-component/tooltip.git",
+    "notices": [
+      "rc-component__tooltip--LICENSE"
+    ]
+  },
+  {
+    "name": "@rc-component/tour",
+    "version": "2.4.0",
+    "license": "MIT",
+    "repository": "https://github.com/react-component/tour.git",
+    "notices": [
+      "rc-component__tour--LICENSE"
+    ]
+  },
+  {
+    "name": "@rc-component/tree",
+    "version": "1.5.3",
+    "license": "MIT",
+    "repository": "https://github.com/react-component/tree.git",
+    "notices": [
+      "rc-component__tree--LICENSE",
+      "rc-component__tree--LICENSE.md"
+    ]
+  },
+  {
+    "name": "@rc-component/tree-select",
+    "version": "1.19.0",
+    "license": "MIT",
+    "repository": "https://github.com/react-component/tree-select.git",
+    "notices": [
+      "rc-component__tree-select--LICENSE",
+      "rc-component__tree-select--LICENSE.md"
+    ]
+  },
+  {
+    "name": "@rc-component/trigger",
+    "version": "3.10.1",
+    "license": "MIT",
+    "repository": "https://github.com/react-component/trigger.git",
+    "notices": [
+      "rc-component__trigger--LICENSE"
+    ]
+  },
+  {
+    "name": "@rc-component/upload",
+    "version": "1.1.1",
+    "license": "MIT",
+    "repository": "git@github.com:react-component/upload.git",
+    "notices": [
+      "rc-component__upload--LICENSE"
+    ]
+  },
+  {
+    "name": "@rc-component/util",
+    "version": "1.14.1",
+    "license": "MIT",
+    "repository": "https://github.com/react-component/util.git",
+    "notices": [
+      "rc-component__util--LICENSE"
+    ]
+  },
+  {
+    "name": "@rc-component/virtual-list",
+    "version": "1.6.0",
+    "license": "MIT",
+    "repository": "https://github.com/react-component/virtual-list.git",
+    "notices": [
+      "rc-component__virtual-list--LICENSE"
+    ]
+  },
+  {
+    "name": "antd",
+    "version": "6.7.0",
+    "license": "MIT",
+    "repository": "https://github.com/ant-design/ant-design",
+    "notices": [
+      "antd--LICENSE"
+    ]
+  },
+  {
+    "name": "clsx",
+    "version": "2.1.1",
+    "license": "MIT",
+    "repository": "lukeed/clsx",
+    "notices": [
+      "clsx--license"
+    ]
+  },
+  {
+    "name": "compute-scroll-into-view",
+    "version": "3.1.1",
+    "license": "MIT",
+    "repository": "git+https://github.com/scroll-into-view/compute-scroll-into-view.git",
+    "notices": [
+      "compute-scroll-into-view--LICENSE"
+    ]
+  },
+  {
+    "name": "dayjs",
+    "version": "1.11.23",
+    "license": "MIT",
+    "repository": "https://github.com/iamkun/dayjs.git",
+    "notices": [
+      "dayjs--LICENSE"
+    ]
+  },
+  {
+    "name": "gsap",
+    "version": "3.15.1",
+    "license": "Standard 'no charge' license: https://gsap.com/standard-license.",
+    "repository": "git+https://github.com/greensock/GSAP.git",
+    "notices": [
+      "gsap-standard-license.txt"
+    ]
+  },
+  {
+    "name": "is-mobile",
+    "version": "5.0.0",
+    "license": "MIT",
+    "repository": "git://github.com/juliangruber/is-mobile.git",
+    "notices": [
+      "is-mobile--LICENSE"
+    ]
+  },
+  {
+    "name": "jpeg-js",
+    "version": "0.4.4",
+    "license": "BSD-3-Clause",
+    "repository": "https://github.com/eugeneware/jpeg-js",
+    "notices": [
+      "jpeg-js--LICENSE"
+    ]
+  },
+  {
+    "name": "json2mq",
+    "version": "0.2.0",
+    "license": "MIT",
+    "repository": "https://github.com/akiran/json2mq",
+    "notices": [
+      "json2mq--LICENSE"
+    ]
+  },
+  {
+    "name": "jsqr",
+    "version": "1.4.0",
+    "license": "Apache-2.0",
+    "repository": "https://github.com/cozmo/jsQR",
+    "notices": [
+      "jsqr--LICENSE"
+    ]
+  },
+  {
+    "name": "pngjs",
+    "version": "7.0.0",
+    "license": "MIT",
+    "repository": "git://github.com/pngjs/pngjs.git",
+    "notices": [
+      "pngjs--LICENSE"
+    ]
+  },
+  {
+    "name": "pts",
+    "version": "1.0.3",
+    "license": "Apache-2.0",
+    "repository": "git+https://github.com/williamngan/pts.git",
+    "notices": [
+      "pts--LICENSE"
+    ]
+  },
+  {
+    "name": "react",
+    "version": "19.3.1",
+    "license": "MIT",
+    "repository": "https://github.com/react/react.git",
+    "notices": [
+      "react--LICENSE"
+    ]
+  },
+  {
+    "name": "react-dom",
+    "version": "19.3.1",
+    "license": "MIT",
+    "repository": "https://github.com/react/react.git",
+    "notices": [
+      "react-dom--LICENSE"
+    ]
+  },
+  {
+    "name": "react-is",
+    "version": "19.3.1",
+    "license": "MIT",
+    "repository": "https://github.com/react/react.git",
+    "notices": [
+      "react-is--LICENSE"
+    ]
+  },
+  {
+    "name": "scheduler",
+    "version": "0.28.0",
+    "license": "MIT",
+    "repository": "https://github.com/react/react.git",
+    "notices": [
+      "scheduler--LICENSE"
+    ]
+  },
+  {
+    "name": "scroll-into-view-if-needed",
+    "version": "3.1.0",
+    "license": "MIT",
+    "repository": "git+https://github.com/scroll-into-view/scroll-into-view-if-needed.git",
+    "notices": [
+      "scroll-into-view-if-needed--LICENSE"
+    ]
+  },
+  {
+    "name": "string-convert",
+    "version": "0.2.1",
+    "license": "MIT",
+    "repository": "https://github.com/akiran/string-convert",
+    "notices": [
+      "string-convert--LICENSE"
+    ]
+  },
+  {
+    "name": "stylis",
+    "version": "4.4.0",
+    "license": "MIT",
+    "repository": "https://github.com/thysultan/stylis.js",
+    "notices": [
+      "stylis--LICENSE"
+    ]
+  },
+  {
+    "name": "throttle-debounce",
+    "version": "5.0.2",
+    "license": "MIT",
+    "repository": "git+https://github.com/niksy/throttle-debounce.git",
+    "notices": [
+      "throttle-debounce--LICENSE.md"
+    ]
+  }
+]

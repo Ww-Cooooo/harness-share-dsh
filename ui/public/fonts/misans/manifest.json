@@ -1,0 +1,18 @@
+{
+  "family": "MiSans",
+  "owner": "Xiaomi",
+  "version": "4.009",
+  "retrieved": "2026-11-09",
+  "officialPage": "https://hyperos.mi.com/font/zh/download/",
+  "sourceArchive": "https://hyperos.mi.com/font-download/MiSans.zip",
+  "license": "MiSans 字体知识产权许可协议",
+  "licenseFile": "MiSans-license.pdf",
+  "licenseSource": "https://hyperos.mi.com/font-download/MiSans字体知识产权许可协议.pdf",
+  "modifications": "None; original official WOFF2 files, without conversion or subsetting.",
+  "role": "All interface text and exported share-card text in focus.html. Explicitly requested by the user.",
+  "coverageCheck": "364 representative Chinese, Latin, numeric and punctuation characters from the affected source are present in both matching TTF faces in the official archive. Browser glyph-level font inspection is not exposed by the current UI tool.",
+  "faces": [
+    {"file":"MiSans-Regular.woff2","sourceEntry":"MiSans/woff2/MiSans-Regular.woff2","bytes":4858624,"sha256":"D704C1A932C0BD7E8A071D276CD81C0ED0C9FECFA26AC234F4BED0559FE1CB2D","cssWeight":400,"namedStyle":"Regular","upstreamTtfWeightClass":330},
+    {"file":"MiSans-Medium.woff2","sourceEntry":"MiSans/woff2/MiSans-Medium.woff2","bytes":4942368,"sha256":"44E28CA6C2F0CA79829F192831EF87B5EEC7C464F5CFB7A83467F57BB6E58114","cssWeight":500,"namedStyle":"Medium","upstreamTtfWeightClass":380}
+  ]
+}

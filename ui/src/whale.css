@@ -1,0 +1,105 @@
+/* A separate brand-color edition. The accepted graphite entry keeps its tokens. */
+html.whale-theme{color-scheme:dark;color:#f2f6ff;background:#10182a;--ink:#f2f6ff;--muted:#aebed9;--lime:#95aeff;--line:#3c4e6d}
+.whale-theme body{background:radial-gradient(ellipse at 79% 36%,#244b852e,transparent 53%),#10182a}
+.whale-theme .focus-app{background:radial-gradient(ellipse at 80% 44%,#4d6bfe0e,transparent 48%)}
+.whale-theme .focus-brand b>span{color:#bacbf0}
+.whale-theme .brand-icon{border:0;background:none;width:39px;height:39px}
+.whale-theme .brand-icon img{width:38px;height:38px;filter:brightness(0) invert(1)}
+.whale-theme .focus-header .ant-segmented{border-color:#46618a55}
+.whale-theme .focus-header-right{gap:14px}
+.whale-edition{font-size:12px;color:#b9c9e7;white-space:nowrap}
+.whale-theme .prototype-label,.whale-theme .focus-header-right .ant-btn{color:#9eb2d4}
+.whale-theme .focus-intro h1>span{color:#95aeff}
+.whale-theme .focus-kicker,.whale-theme .focus-panel .back-link.ant-btn{color:#adbeef}
+.whale-theme .category-row.ant-btn{border-color:#6f91c71c}
+.whale-theme .category-row.ant-btn:hover{background:#7196ef09!important}
+.whale-theme .category-count{color:#cad7f2}
+.whale-theme .category-count>span{color:#8ea6cd}
+.whale-theme .category-row>.anticon:last-child{color:#a5bdf3}
+.whale-theme .focus-mark{color:#96afff}
+.whale-theme .focus-mark.plugin{color:#94d9ef}
+.whale-theme .focus-mark.theme{color:#d0dbff}
+.whale-theme .focus-mark.preference{color:#aebfda}
+.whale-theme .share-name{border-color:#4a618754}
+.whale-theme .share-name .ant-input{color:#e6eeff}
+.whale-theme .share-name .ant-btn{color:#adbfdf}
+.whale-theme .focus-primary.ant-btn{background:#4d6bfe;color:#fff;box-shadow:0 3px 0 #2e45ac}
+.whale-theme .focus-primary.ant-btn:not(:disabled):hover{background:#637eff!important;color:#fff!important}
+.whale-theme .focus-primary.ant-btn:active{box-shadow:0 1px 0 #2e45ac}
+.whale-theme .focus-primary.ant-btn:disabled{background:#25324c;color:#8498b9;box-shadow:none}
+.whale-theme .primary-line>span,.whale-theme .count-extra,.whale-theme .action-note{color:#acbdde}
+.whale-theme .sculpture-icon{color:#14284e;opacity:.72}
+.whale-theme .sculpture-center>span:not(.anticon){color:#e6eeff}
+.whale-theme .sculpture-center small,.whale-theme .sculpture-caption{color:#aabfe5}
+.whale-theme .ribbon-dim{fill:#101d3b}
+.whale-theme .ribbon-feedback{stroke:#f1f6ff}
+.whale-theme .sculpture-shadow{background:#03091a88}
+.whale-theme .focus-item{border-color:#7ea1dc18}
+.whale-theme .focus-item .item-detail.ant-btn{color:#b9c9e6}
+.whale-theme .focus-item.selected .item-detail.ant-btn{color:#f2f6ff}
+.whale-theme .item-detail .detail-arrow{color:#9cb5df}
+.whale-theme .catalog-search.ant-input-affix-wrapper,.whale-theme .receive-source .ant-input-affix-wrapper{background:#1b294266}
+.whale-theme .catalog-search .ant-input-prefix,.whale-theme .receive-source .ant-input-prefix{color:#a7bce2}
+.whale-theme .catalog-filter-row .ant-checkbox-wrapper,.whale-theme .selection-cap,.whale-theme .selection-cap .ant-checkbox-wrapper,.whale-theme .catalog-empty{color:#c3d2ec}
+.whale-theme .focus-item .ant-checkbox-checked::after,.whale-theme .selection-cap .ant-checkbox-checked::after{border-color:#c6d6ff!important}
+.whale-theme .detail-example{border-color:#7897ff80}
+.whale-theme .detail-example>span,.whale-theme .detail-action>span,.whale-theme .subtle-note,.whale-theme .example-output p>span{color:#aabfe0}
+.whale-theme .detail-example>p{color:#e8f0ff}
+.whale-theme .more-example.ant-btn{color:#a9c0fa}
+.whale-theme .theme-preview{background:#1b2942}
+.whale-theme .theme-preview-title,.whale-theme .theme-preview>p{color:#bacbea}
+.whale-theme .focus-mix>div:last-child,.whale-theme .friend-preview.ant-btn,.whale-theme .local-link{color:#b6c9eb}
+.whale-theme .local-link .ant-input{color:#8fa9d2;border-color:#7596cc33}
+.whale-theme .received-name,.whale-theme .receive-settings .ant-btn{color:#c6d8fb}
+.whale-theme .received-name>small{color:#abc1e5;border-color:#7596cc55}
+.whale-theme .install-current{color:#c4d7fd}
+.whale-theme .install-current span,.whale-theme .install-progress>div{color:#b1c5e7}
+.whale-theme .field-error,.whale-theme .image-import-error{color:#ffb6ae}
+.whale-theme .stage-image-entry.ant-btn{color:#c3d5f8}
+.whale-theme .stage-image-entry.ant-btn>span:last-child{color:#9eb7de}
+.whale-theme .stage-file-hint{color:#c4d7ff;border-color:#92afff;background:#4d6bfe12}
+.whale-theme .qr-dropzone{background:#14223a;border-color:#5874a3}
+.whale-theme .qr-dropzone.is-dragging{background:#4d6bfe1a;border-color:#91adff}
+.whale-theme .qr-dropzone:focus-visible{outline-color:#91adff}
+.whale-theme .drop-image-mark{color:#adc3ff}
+.whale-theme .qr-dropzone strong{color:#edf3ff}
+.whale-theme .qr-dropzone>span:not(.drop-image-mark):not(.drop-corner){color:#b9cceb}
+.whale-theme .qr-dropzone small{color:#94add2}
+.whale-theme .drop-corner{border-color:#8aa9df}
+.whale-theme .image-import-note,.whale-theme .modal-note,.whale-theme .preference-setting p{color:#b3c6e7}
+.whale-theme .help-copy{color:#c6d4ee}
+.whale-theme .font-credit{color:#a2b9de}
+.whale-theme .focus-footer{color:#8fa8d1;border-color:#7596cc15}
+.whale-about-link{display:flex;gap:20px;font-size:12px;color:#9fb4d8}
+.whale-about-link a:hover{color:#d5e1ff;text-decoration:underline;text-underline-offset:4px}
+.whale-theme [data-view=shared] .back-link{margin-bottom:16px}
+.whale-theme .result-intro{margin-bottom:18px}
+.whale-theme .result-intro .focus-kicker{margin-bottom:10px}
+.whale-theme .result-intro h1{font-size:40px}
+.whale-theme .result-pack h2{margin-bottom:15px}
+.whale-theme .focus-mix{margin-bottom:18px}
+.whale-theme .friend-preview.ant-btn{margin-top:10px;margin-bottom:10px}
+.card-theme-picker{margin:0 0 18px}
+.card-theme-label{display:block;font-size:14px;color:#b6c8e8;margin-bottom:10px}
+.card-theme-picker .ant-radio-group{display:flex;gap:10px;width:100%;max-width:386px}
+.card-theme-picker .ant-radio-button-wrapper{height:100px;padding:5px;flex:1;min-width:0;max-width:122px;border:1px solid #3e5378;border-radius:10px!important;background:#1a2841;line-height:normal;box-shadow:none!important}
+.card-theme-picker .ant-radio-button-wrapper::before{display:none!important}
+.card-theme-picker .ant-radio-button-wrapper-checked{border-color:#91adff;background:#263d68}
+.card-theme-picker .ant-radio-button-wrapper:not(.ant-radio-button-wrapper-checked):hover{background:#233550;border-color:#6b87b4}
+.card-theme-thumb{display:flex;width:100%;height:60px;border-radius:6px;overflow:hidden;align-items:center;justify-content:center}
+.card-theme-thumb img{width:62px;height:57px;object-fit:contain}
+.card-theme-thumb.whale img{width:44px;height:44px;filter:brightness(0) invert(1)}
+.card-theme-thumb.girl img{width:78px;height:96px;object-position:top;align-self:flex-start;margin-top:4px}
+.card-theme-thumb.chibi img{height:65px;width:65px;margin-top:7px}
+.card-theme-name{display:flex;align-items:center;justify-content:space-between;font-size:14px;color:#cbdaf8;padding:8px 5px 0}
+.card-theme-name .anticon{font-size:12px;visibility:hidden;color:#cadbff}
+.ant-radio-button-wrapper-checked .card-theme-name .anticon{visibility:visible}
+.whale-theme .themed-share-preview{width:310px;min-height:0;height:auto;left:50%;top:50%;margin:0;translate:-50% -50%;padding:0;background:transparent;border-radius:15px;box-shadow:0 28px 80px #02081477;line-height:0;overflow:hidden}
+.themed-card-image{display:block;width:100%;height:auto;max-height:560px;object-fit:contain;border-radius:15px}
+.themed-card-pending{display:grid;place-items:center;min-height:450px;background:#1d3054;color:#c2d4fa;font-size:16px;line-height:1.6;padding:25px}
+.whale-export{width:380px!important}
+.whale-export .generated-canvas{width:380px!important}
+.whale-theme .sculpture.is-code .sculpture-caption{bottom:-35px}
+@media(min-width:1450px){.whale-theme .themed-share-preview{width:350px}.whale-theme .sculpture.is-code .sculpture-caption{bottom:0}}
+@media(max-width:1100px){.whale-edition{display:none}.whale-theme .focus-header-right{gap:6px}.whale-theme .themed-share-preview{width:290px}.whale-theme .focus-app[data-view=shared] .focus-main{min-height:620px}.whale-theme .sculpture.is-code .sculpture-caption{bottom:-85px}.whale-theme .focus-footer{flex-wrap:wrap;height:auto;min-height:48px;gap:8px 16px;padding:12px 0}}
+@media(max-width:820px){.whale-theme .focus-stage:has(.is-code){min-height:480px}.whale-theme .sculpture.is-code .sculpture-caption{display:none}.whale-theme .focus-footer{justify-content:flex-start}.whale-theme .themed-share-preview{width:270px}}

@@ -1,0 +1,16 @@
+export const PREFIX:string;
+export const QR_LIMIT:number;
+export const THEME_DEFAULTS:Record<string,any>;
+export function themeSettings(input:any):any;
+export function gitHash(kind:string,bytes:any):string;
+export function validateManifest(value:any):any;
+export function encodeManifest(value:any):string;
+export function decodeManifestQr(url:string):any;
+export function manifestView(manifest:any,url:string):any;
+export function githubJson(repo:string,path:string):Promise<any>;
+export function localFiles(item:any):Promise<any[]>;
+export function filesTreeHash(files:any[]):string;
+export function resolveSkill(item:any,options?:any):Promise<any>;
+export function skillBundle(manifest:any,ids:string[],options?:any):Promise<any>;
+export function installManifestSkills(workspace:string,manifest:any,ids:string[],options?:any):Promise<any>;
+export function inspectManifestSkills(workspace:string,manifest:any,options?:any):Promise<any>;

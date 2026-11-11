@@ -1,0 +1,57 @@
+{
+  "v": 3,
+  "title": "我的三件套",
+  "description": "",
+  "items": [
+    {
+      "type": "skill",
+      "id": "find-skills",
+      "title": "find-skills",
+      "install": {
+        "kind": "skill-directory"
+      },
+      "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending c",
+      "source": {
+        "kind": "github-tree",
+        "repo": "vercel-labs/skills",
+        "tree": "76a98a285cb0434f3d39e1a873823556330e398b",
+        "extras": [
+          [
+            "LICENSE",
+            "eabe3008f6c0275929faa8b07d406e82717648cc"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "plugin",
+      "id": "plugin:dsh-whale-widget",
+      "title": "dsh-whale-widget",
+      "install": {
+        "kind": "harness-plugin"
+      },
+      "source": {
+        "kind": "npm",
+        "package": "dsh-whale-widget",
+        "version": "0.4.2"
+      }
+    },
+    {
+      "type": "theme",
+      "id": "theme:ui-theme",
+      "title": "当前界面主题",
+      "install": {
+        "kind": "harness-theme"
+      },
+      "settings": {
+        "preference": "dark",
+        "fontSize": 15,
+        "codeFontSize": 12,
+        "terminalFontSize": 14,
+        "textFontFamily": "Arial",
+        "codeFontFamily": "Consolas",
+        "terminalFontFamily": "Consolas"
+      }
+    }
+  ]
+}
