@@ -38,7 +38,15 @@
 - 只修改本项目条目；不手工改上游生成的目录页面或其他插件。截图来源由本仓库的 `screenshots.json` 和所引用的文件维护。
 - PR 合并后还要确认主分支条目、生成目录和实际安装来源。检查通过、PR 合并、客户端可见分别记录，不互相代替。
 
-核查结果：PR 仍为 OPEN；上游主分支尚无本条目。最近一次 Submission gate 的失败原因是检查当时仓库未满一天；截至本次核查已超过一天，但尚未取得新的通过或合并回执。规则说明旧结论会自动复查，无需空提交或重复投稿。
+2026-11-12 23:01（北京时间）复核：PR 仍为 **OPEN、未合并**，投稿 head 为 `5111f6713bfd9340479580a142f341653f2f55a0`。未发现人工评审、修改要求、合并冲突或其他投稿字段错误。
+
+- [PR check 已通过](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/actions/runs/43149616533/job/130955437364)，包含条目路径、生成目录一致性、描述 lint、回归检查与站点构建。
+- [Submission gate 的现存失败记录](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/actions/runs/43152499234/job/130964752478)产生于当天 **12:06:35**，当时唯一实质问题为仓库年龄 0.7 天、要求 1 天。该运行的 5 条 annotations 包含同一失败的汇总和退出码，以及 Node、Ubuntu 环境提示，不能据此说插件有 5 个缺陷。邮件中的 `main / f613760` 是门禁工作流的上游代码版本，日志实际检查的是本 PR。
+- 仓库创建于 2026-11-11 18:52:05，已在 **2026-11-12 18:52:05** 满 24 小时。本次比对本地与上游当前的 `check-submission.mjs` 及其条目读取模块，内容一致；仅针对本条目重新执行只读检查，得到 `checked: 1`、`failures: []`、`incomplete: []`。这是当前规则的本地复查结果，**不替代 GitHub 的新检查回执或人工审核**。
+
+为什么红叉还在：[自动复查规则](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/blob/b85732b69d498a216baf490fb811774dcb6771d9/.github/workflows/regate.yml#L222)对年龄失败另设“距上次失败至少 24 小时”的间隔；扫描计划为 UTC `19 */6 * * *`，每轮最多重跑 20 项。因此本条目按年龄复查路径最早在 **2026-11-13 12:06:35（北京时间）**满足条件，下一次计划扫描为当天 14:19；运行延迟、队列及后续规则变化都可能影响实际时间，不能承诺届时通过或合并。[11 月 12 日晚的扫描](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/actions/runs/43218348119)本身成功，不代表每条待审 PR 已重新检查。
+
+本次仅修正 PR 正文中过期的仓库年龄说明，投稿 head、条目和 v0.2.0 安装包保持原样；没有空提交、重复投稿或手工伪造检查结果。当前账号对上游只有读取权限，不能自行重跑其工作流。待上游自动复查或维护者刷新门禁，再等待人工审核；合并后仍须另行核对上游条目与实际目录可见状态。
 
 规则与更新方式见 [当前贡献指南](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/blob/main/contributing.md)。
 
