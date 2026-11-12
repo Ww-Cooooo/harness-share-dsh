@@ -69,3 +69,7 @@ npm pack
 源码在 `src/` 与 `ui/`；构建后生成 `lib/`，Release 安装包已经包含这些产物。请用 Release 包安装，不要直接把源码仓库地址填进安装框。UI 使用 React、Ant Design、GSAP、Pts 和 MiSans；Host 使用官方 Cordis / Typert 接口。[开发与兼容说明](docs/DEVELOPMENT.md)
 
 项目原创代码采用 [MIT](LICENSE)。第三方字体、组件和形象分别遵循其自身许可，**不被 MIT 重新授权**；鲸鱼娘插图带非商业限制，DeepSeek 名称与标志仍属相应权利人。详见 [第三方声明](NOTICE.md)。
+
+## 发布与维护
+
+所有已核实的发布入口、市场投稿状态和后续同步步骤集中在 [发布渠道与同步维护](RELEASE-CHANNELS.md)。修改介绍、安装包或截图时，请按清单逐项检查，并记录各处的实际更新结果。
