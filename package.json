@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "private": true,
   "type": "module",
-  "description": "Share selected skills, plugins and theme settings through self-contained QR manifests in DeepSeek Harness.",
+  "description": "Share selected theme settings, installed plugins and skills by QR code, then review and install them together from an image or screenshot.",
   "engines": {
     "dsh": "0.2.2-rc.1",
     "node": ">=24.9.0"
